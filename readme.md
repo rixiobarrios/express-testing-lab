@@ -12,7 +12,7 @@ Your code should make sure that each endpoint returns what it is supposed to. Di
 
 ### Set Up
 
-Fork the `express-api-lab` repo. Then clone your fork. Afterwords, fetch the `testing-starter` code and checkout that branch.
+Fork the `express-api-lab` repo. Then clone your fork. Afterwords, fetch the `testing-starter` code and checkout that branch. Also, seed the database.
 
 ```
 $ git clone git@git.generalassemb.ly:your-fork/express-api-lab.git
@@ -20,6 +20,7 @@ $ git fetch origin testing-starter
 $ git checkout testing-starter
 $ npm install
 $ nodemon
+$ node db/seed.js
 ```
 
 If you don't have access to the original, do the following:
