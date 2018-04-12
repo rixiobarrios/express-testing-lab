@@ -12,8 +12,11 @@ Your code should make sure that each endpoint returns what it is supposed to. Di
 
 ### Set Up
 
+Fork the `express-api-lab` repo. Then clone your fork. Afterwords, fetch the `testing-starter` code and checkout that branch.
+
 ```
-$ git clone git@git.generalassemb.ly:ga-wdi-exercises/express-api-lab.git
+$ git clone git@git.generalassemb.ly:your-fork/express-api-lab.git
+$ git fetch testing-starter
 $ git checkout testing-starter
 $ npm install
 $ nodemon
