@@ -7,7 +7,7 @@ Today, you will be adding automated testing to the [Express API](https://git.gen
 * PUT `gifs/:gifId` which will update a gif and return a list of all gifs
 * DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
 
-Your code should make sure that each endpoint returns what it is supposed to and accepts the correct content type.
+Your code should make sure that each endpoint returns what it is supposed to and accepts the correct content type. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/ga-wdi-lessons/express-tdd) lesson. **Please submit your final project as an issue to this repository.** If you use a separate branch for testing, please link to that branch in your issue so we know where to look to grade it.
 
 ## Bonus: Add Testing to your MEHN Lab
 
