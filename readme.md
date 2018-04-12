@@ -1,13 +1,29 @@
 # Express Testing Lab
 
-Today, you will be adding automated testing to the [Express API](https://git.generalassemb.ly/ga-wdi-exercises/express-api-lab) lab from last week. If your code was incomplete, please contact the instructors. You should have tests for each of the endpoints:
+Today, you will be adding automated testing to the [Express API](https://git.generalassemb.ly/ga-wdi-exercises/express-api-lab) lab from last week. Please work off of the [`testing-starter` branch](https://git.generalassemb.ly/ga-wdi-exercises/express-api-lab/tree/testing-starter). You should have tests for each of the endpoints:
 
 * GET `/gifs` which will list out all gifs
-* POST `/gifs` which will add a new gif and return a list of all gifs
-* PUT `gifs/:gifId` which will update a gif and return a list of all gifs
-* DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
+* GET `/gifs/:id` which will get a gif with a specific ID
+* POST `/gifs` which will add a new gif and return that new gif
+* PUT `gifs/:id` which will update a gif and return that gif
+* DELETE `gifs/:id` which will delete a gif
 
-Your code should make sure that each endpoint returns what it is supposed to and accepts the correct content type. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/ga-wdi-lessons/express-tdd) lesson. **Please submit your final project as an issue to this repository.** If you use a separate branch for testing, please link to that branch in your issue so we know where to look to grade it.
+Your code should make sure that each endpoint returns what it is supposed to. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/ga-wdi-lessons/express-tdd) lesson. 
+
+### Set Up
+
+```
+$ git clone git@git.generalassemb.ly:ga-wdi-exercises/express-api-lab.git
+$ git checkout testing-starter
+$ npm install
+$ nodemon
+```
+
+Make sure you have `mongod` running as well!
+
+### Submission
+
+**Please submit your final project as an issue to this repository.** Please link to the branch you used in your issue so we know where to look to grade it.
 
 ## Bonus: Add Testing to your MEHN Lab
 
