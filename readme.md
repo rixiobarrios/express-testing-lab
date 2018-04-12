@@ -22,6 +22,12 @@ $ npm install
 $ nodemon
 ```
 
+If you don't have access to the original, do the following:
+```
+$ git remote add original https://git.generalassemb.ly/ga-wdi-exercises/express-api-lab/
+$ git fetch original testing-starter
+$ git checkout testing-starter
+```
 Make sure you have `mongod` running as well!
 
 ### Submission
