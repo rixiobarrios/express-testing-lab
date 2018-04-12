@@ -16,7 +16,7 @@ Fork the `express-api-lab` repo. Then clone your fork. Afterwords, fetch the `te
 
 ```
 $ git clone git@git.generalassemb.ly:your-fork/express-api-lab.git
-$ git fetch testing-starter
+$ git fetch origin testing-starter
 $ git checkout testing-starter
 $ npm install
 $ nodemon
