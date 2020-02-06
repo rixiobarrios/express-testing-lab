@@ -1,6 +1,6 @@
 # Express Testing Lab
 
-Today, you will be adding automated testing to the [Express API](https://git.generalassemb.ly/seir-826/w06d01-seir826-express-api-lab) lab from last week. Please work off of this [starter repo](https://git.generalassemb.ly/seir-826/express-testing-lab-starter). You should have tests for each of the endpoints:
+Today, you will be adding automated testing to the [Express API](https://git.generalassemb.ly/seir-129/express-api-lab) lab from last week. Please work off of this [starter repo](https://git.generalassemb.ly/seir-129/express-testing-lab-starter). You should have tests for each of the endpoints:
 
 * GET `/gifs` which will list out all gifs
 * GET `/gifs/:id` which will get a gif with a specific ID
@@ -8,7 +8,7 @@ Today, you will be adding automated testing to the [Express API](https://git.gen
 * PUT `gifs/:id` which will update a gif and return that gif
 * DELETE `gifs/:id` which will delete a gif
 
-Your code should make sure that each endpoint returns what it is supposed to. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/seir-826/w06d02-seir826-express-tdd) lesson. 
+Your code should make sure that each endpoint returns what it is supposed to. Directions for setting up testing and implementing tests can be found in the [Express Testing](https://git.generalassemb.ly/seir-129/express-tdd) lesson. 
 
 ### Set Up
 
